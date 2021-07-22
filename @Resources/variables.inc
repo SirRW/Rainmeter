@@ -8,22 +8,24 @@ LineSize    = 2
 LineColor   = 234, 253, 259, 230
 GlitchColor = 62, 230, 107
 
+White= 255, 255, 255, 250
+Black= 0, 0, 0, 200
+
 ;--- Margins
 Margin      = 30
-HMargin     = 20
-Safe        = 5
 
 ;--- Image settings
 Path        = #@#/Img/
-ImgH        = 500
-Reference= 250
 Font= Roboto
 
-;- Slider
-Wait= 5
-Fast= 7
-Slow= 3
-Repeat= 300
+;--- Text styles
+[Base]
+AntiAlias= 1
+FontFace= Roboto
+FontColor= #White#
 
-;--- Browser
-BPath       = C:\Users\Lucas\Desktop\
+[Title]
+FontSize= 15
+
+[Simple]
+FontSize= 10
