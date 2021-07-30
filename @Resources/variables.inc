@@ -8,8 +8,9 @@ LineSize    = 2
 LineColor   = 234, 253, 259, 230
 GlitchColor = 62, 230, 107
 
+NoColor= 0,0,0,0
 White= 255, 255, 255, 250
-Black= 0, 0, 0, 200
+Black= 0, 0, 0, 180
 
 ;--- Margins
 Margin      = 30
